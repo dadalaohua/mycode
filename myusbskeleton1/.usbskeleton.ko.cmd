@@ -1,0 +1,1 @@
+cmd_/work/nfsroot/mycode/myusbskeleton1/usbskeleton.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.11.0-15-generic/scripts/module-common.lds --build-id  -o /work/nfsroot/mycode/myusbskeleton1/usbskeleton.ko /work/nfsroot/mycode/myusbskeleton1/usbskeleton.o /work/nfsroot/mycode/myusbskeleton1/usbskeleton.mod.o
